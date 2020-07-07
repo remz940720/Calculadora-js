@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.contenedor{
+    position: relative;
+    width: 600px;
+    height: 690px;
+    margin: 50px auto;
+    background: rgb(44, 61, 79);
+    text-align: center;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.contenedor-botones{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+#pantalla{
+    margin: 10px auto;
+}
+
+#pantalla input[type="text"]{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    font-size: 85px;
+    text-align: right;
+    margin-top: 60px;
+    background: white;    
+
+}
+
+.boton{
+    width: 120px;
+    height: 95px;
+    font-family: sans-serif;
+    font-size: 85px;
+    font-weight: bold;
+    background: rgb(72, 99, 129);
+    color: white;
+    cursor: pointer;
+    border-color: black;
+
+}
+
+.igual{
+    background: rgb(255, 117, 30);
+    color: white;
+}
+
+.operacion{
+    background: rgb(57, 121, 240);
+}
+
+.clear{
+    position: relative;
+    margin-left: -370px;
+    width: 125px;
+    background: rgb(28, 180, 14);
+}
+
+.boton:hover{
+    background: rgb(211, 202, 202);
+}
+
+.punto{
+    color: red;
+}
+
+
